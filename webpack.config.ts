@@ -41,7 +41,7 @@ export default function buildWebpackConfig(env: Env): any {
         sourceMapFilename: '[file].map',
       },
       devServer: {
-        port: 9090,
+        port: 9091,
         static: {
           directory: path.join(__dirname, 'demo'),
         },

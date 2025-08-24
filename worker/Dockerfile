@@ -40,6 +40,7 @@ RUN emmake make -j -C lib install
 RUN emmake make -j -C plugin install
 WORKDIR ..
 
+RUN mkdir /worker-dist
 WORKDIR /home
 
 CMD	emcc \
